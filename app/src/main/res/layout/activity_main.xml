@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fragments.praveenkumar.fragmentsapp.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" >
+    <!--<fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.fragments.praveenkumar.fragmentsapp.PlayerDetails"
+        android:id="@+id/details_fragment" />-->
+   <!-- <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.fragments.praveenkumar.fragmentsapp.RosterList"
+        android:id="@+id/roster_fragment" />-->
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>
